@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafePay | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <div class="heading">
+          <a href="#">SafePay Logo</a>
+        </div>
+        <div class="login">
+          <button class="btn-trigger">Login</button>
+        </div>
+        <div class="login-body">
+          <h3 class="text-center">Log In</h3>
+          <div class="input-area">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Please Enter Username" />
+          </div>
+          <div class="input-area">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Please Enter Password" />
+          </div>
+          <button class="btn-submit">Submit</button>
+          <p>Don't have an account?? <a href="#">Sign Up</a></p>
+          <p>Forgot Password?? <a href="#">Recover Password</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="start">
+        <div class="left-side">
+          <div class="container">
+            <div class="input-fields">
+              <div class="input-for-search">
+                <input type="text" placeholder="What do you want to pay" />
+                <i class="fas fa-search"></i>
+              </div>
+              <select aria-placeholder="What do you want to pay for">
+                <option>What do you want to pay for</option>
+              </select>
+            </div>
+            <div class="info-place">
+              <p>you are paying school fees etc for mr micheal</p>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter Subscription Id / Registration Number/ Phone Number"
+              class="last-input"
+            />
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="container">
+            <div class="select-bank">
+              <h4>Select Bank</h4>
+              <select>
+                <option>Zenith Bank</option>
+                <option>First Bank</option>
+                <option>Access Bank</option>
+              </select>
+            </div>
+            <div class="info-place">
+              <p>Dial the code below to complete this transaction</p>
+            </div>
+
+            <p class="pin">*757*000*123456#</p>
+
+            <button class="btn-submit">I made this payment</button>
+          </div>
+        </div>
+        <div class="payment-area">
+          <div class="container">
+            <h4 class="info-place">Payment Details</h4>
+            <div class="payment-body">
+              <p class="name info-place">Student Name: Ezichi O. Chinewe</p>
+              <p class="details info-place">
+                Details: 3rd Term 2020/ 2021 school fees. Swiss kids
+              </p>
+              <p class="ammount info-place">Amount: 3400</p>
+              <div class="payment-options info-place">
+                <p>pay by:</p>
+                <div class="checkes">
+                  <input type="checkbox" />
+                  <p>USSD</p>
+                </div>
+                <div class="checkes">
+                  <input type="checkbox" />
+                  <p>Bank Transfer</p>
+                </div>
+                <div class="checkes">
+                  <input type="checkbox" />
+                  <p>Debit card</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn-submit">Proceed to payment</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
